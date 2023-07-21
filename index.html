@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +40,15 @@
         </ul>
     </nav> 
 <header>
-    <div class="content1">
+    <div class="content1"
+      data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
         <span id="header-first" > Felix innovations</span>
         <p>
         Present your product, app, service and more
@@ -79,7 +88,7 @@
 </div>
 </section>
 <section class="contaner-features" >
-    <hr>
+    <hr/>
     <h1 style="text-align: center; font: 3em sans-serif;">Gallery</h1>
 <div class="contaner" >
     <div class="photo1"><img src="./images/1.jpg" alt="" srcset=""></div>
@@ -105,13 +114,14 @@
             <li><i class="fa-brands fa-github fa-xl"></i></i></li>
 
 </main>
-<footer >
+
+<div class="form-contener" >
     <div id="icon-form" >
 <img src="./images/logo.png" alt="" srcset="" >
 </div>
 
 <svg class="bgsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#DDDFDD"  fill-opacity="1" d="M0,256L11.4,240C22.9,224,46,192,69,181.3C91.4,171,114,181,137,176C160,171,183,149,206,154.7C228.6,160,251,192,274,192C297.1,192,320,160,343,165.3C365.7,171,389,213,411,229.3C434.3,245,457,235,480,245.3C502.9,256,526,288,549,272C571.4,256,594,192,617,154.7C640,117,663,107,686,128C708.6,149,731,203,754,186.7C777.1,171,800,85,823,69.3C845.7,53,869,107,891,144C914.3,181,937,203,960,197.3C982.9,192,1006,160,1029,154.7C1051.4,149,1074,171,1097,149.3C1120,128,1143,64,1166,80C1188.6,96,1211,192,1234,213.3C1257.1,235,1280,181,1303,133.3C1325.7,85,1349,43,1371,69.3C1394.3,96,1417,192,1429,240L1440,288L1440,320L1428.6,320C1417.1,320,1394,320,1371,320C1348.6,320,1326,320,1303,320C1280,320,1257,320,1234,320C1211.4,320,1189,320,1166,320C1142.9,320,1120,320,1097,320C1074.3,320,1051,320,1029,320C1005.7,320,983,320,960,320C937.1,320,914,320,891,320C868.6,320,846,320,823,320C800,320,777,320,754,320C731.4,320,709,320,686,320C662.9,320,640,320,617,320C594.3,320,571,320,549,320C525.7,320,503,320,480,320C457.1,320,434,320,411,320C388.6,320,366,320,343,320C320,320,297,320,274,320C251.4,320,229,320,206,320C182.9,320,160,320,137,320C114.3,320,91,320,69,320C45.7,320,23,320,11,320L0,320Z"></path></svg>
-<div  style="height: 400px;background-color: #DDDFDD; margin-top: -9px;">
+<div  style="background-color: #DDDFDD">
     <div class="form-contaner" >
         <div class="form" >
         <h1>Contact us</h1>
@@ -121,77 +131,120 @@
         <input type="text" name="email" placeholder="Email" id="email" value=""><br>
         <label for="phone"></label><br>
         <input type="text" name="phone" placeholder="phone" id="phone" value=""><br>
-
         <label for="password"></label><br>
         <input type="password" name="password" placeholder="Password" id="password" value=""><br><br>
         <input type="submit" value="Contact us" onclick="login()">
         <p class="output">
-
         </p>
-        </form>
+    </form>
     </div>
     </div>
-
 </div>
-
-</footer>
-
-
+</div>
 <div class="body-nav-end">
     <nav class="nav-end">
-        <div class="list1">
-            <ul>
-                <li>Adele</li>
-                <li>Agnes</li>
-                <li>Billy</li>
-                <li>Bob</li>
-                <li>Calvin</li>
-                <li>Christina</li>
-                <li>Cindy</li>
-              </ul>
-        </div>
-        <div class="list2">
-            <ul>
-                <li>Adele</li>
-                <li>Agnes</li>
-                <li>Billy</li>
-                <li>Bob</li>
-                <li>Calvin</li>
-                <li>Christina</li>
-                <li>Cindy</li>
-              </ul>
-        </div>
+            <div  style="display: flex; ">
+              <div  data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine" style="margin-top: 183px; padding: 46px;">
+                <div style="text-align: center;"> 
+                  <h1>Highly effective money transfer</h1>
+                  <p>It's easy to invest into our shops and projects</p>
+                  <p>VEM platform, understands the clients and their needs, so it increases the purshasing rate and your profits aswell.
+                  </p>
+                    <a href="#">
+                      <button type="submit" style="padding: 20px;border-radius: 20px; border: none; font-size: 20px;">
+                        Explore more
+                      </button>
+                    </a>
+                </div>
+              </div>
+              <div  data-aos="fade-left" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                <div style=" height: 100%;" >
+                  <img src="./images/6.jpg" width="600px"  height="100%" alt="VEM platform" "/>
+                </div>
+              </div>
+            </div>
+          
+          <!-- ============================================================================================================================ -->
+          <!-- <div  style="display: flex;flex-direction: row; align-items:flex-end;">
+            <div  data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
+              <div style="text-align: center;"> 
+                <h1>Highly effective money transfer</h1>
+                <p>It's easy to invest into our shops and projects</p>
+                <p>VEM platform, understands the clients and their needs, so it increases the purshasing rate and your profits aswell.
+                </p>
+                <div>
+                  <a href="#">
+                    <button type="submit">
+                      Explore more
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div  data-aos="fade-left" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
+              <div >
+                <img src="./images/6.jpg" width="600px" alt="VEM platform"/>
+              </div>
+            </div>
+          </div>
+        </div> -->
 
-        <div class="list3">
-            <ul>
-                <li>Adele</li>
-                <li>Agnes</li>
-                <li>Billy</li>
-                <li>Bob</li>
-                <li>Calvin</li>
-                <li>Christina</li>
-                <li>Cindy</li>
-              </ul>
-        </div>
-
-
-
-        
+        <!-- ====================================================================================================================================== -->
+   
+    </div>
     </nav>
+    <!-- ============================================================================================================================================/ -->
+    <div class="footerpage">
+        <footer class="footer">
+            <div class="container">
+             <div class="row">
+               <div class="footer-col">
+                 <h4>company</h4>
+                 <ul>
+                   <li><a href="#">about us</a></li>
+                   <li><a href="#">our services</a></li>
+                   <li><a href="#">privacy policy</a></li>
+                   <li><a href="#">affiliate program</a></li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>get help</h4>
+                 <ul>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">shipping</a></li>
+                   <li><a href="#">returns</a></li>
+                   <li><a href="#">order status</a></li>
+                   <li><a href="#">payment options</a></li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>online shop</h4>
+                 <ul>
+                   <li><a href="#">watch</a></li>
+                   <li><a href="#">bag</a></li>
+                   <li><a href="#">shoes</a></li>
+                   <li><a href="#">dress</a></li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>follow us</h4>
+                 <div class="social-links">
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                 </div>
+               </div>
+             </div>
+            </div>
+         </footer>
+    </div>
+    
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="./main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
