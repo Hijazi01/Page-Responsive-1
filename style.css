@@ -339,7 +339,7 @@ footer{
 
 /* ============================================================================================================================= */
 .footerpage .container{
-  max-width: 1070px;
+  max-width: 100%;
   margin:3px;
 }
 .footerpage .row{
@@ -469,7 +469,7 @@ footer{
         display: block;
         position: relative;
         top: 36px;
-        left: -247px;
+        left: -447px;
         color: rgb(92, 0, 18);
         font-size: 1rem;
         padding: 14px;
@@ -565,7 +565,7 @@ footer{
                 height: 50%;
             }
             .content1{
-                width: 500px;
+                width: 100%;
                 height: 500px;
 
         }
@@ -574,4 +574,26 @@ footer{
             width: 100%;
         
         }
+        .grid-photo{
+        width: 188px;
+        position: relative;
+        left: -18px;
+         top: -5%;
+        }
+        /* .left-nav{
+            display: none;
+        } */
+        .list-manu .flex span {
+            display: block;
+            position: relative;
+            left: -128px;
+            font-size: 2rem;
+            z-index: 20;}
+            /* .list-manu {
+                 width: 74%;
+                 display: none;
+                } */
+                .form{
+                   background-color: rgb(221, 223, 221);
+                }
     }
